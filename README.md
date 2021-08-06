@@ -1,5 +1,6 @@
-# Team Name: 
-## Touch Afrikka
+| # Team Name  | # Team Members |
+| ------------- | ------------- |
+| ## Touch Afrikka  | ## Thabo Mayika  |
 
 # AppName: 
 ## Plausible
