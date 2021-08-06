@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "1094320360655",
+    "project_id": "plausible-mtn",
+    "storage_bucket": "plausible-mtn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1094320360655:android:719a3d85ab9794fef23bba",
+        "android_client_info": {
+          "package_name": "com.touchafrikka.plausible"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1094320360655-k11il2jnje4ur72rbdg5k4c533ohg6q9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.touchafrikka.plausible",
+            "certificate_hash": "92e5875c39e15ce2baa1240b5c1795fc8102493f"
+          }
+        },
+        {
+          "client_id": "1094320360655-orfemv9a0edjsn4s7e56avfaems0hm4e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEXmr1sllZQ3Ox7V-_78o7TX0R7nsJRjI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1094320360655-orfemv9a0edjsn4s7e56avfaems0hm4e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1094320360655-a1dadn08rdhe2520q5khuhsfeqhrrj25.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.touchafrikka.plausible"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
