@@ -12,6 +12,6 @@ AppBar header(context, { bool isAppTitle = false, required String titleText }) {
         ),
     ),
     centerTitle: true,
-    backgroundColor: Colors.purple,
+    backgroundColor: Colors.redAccent,
   );
 }

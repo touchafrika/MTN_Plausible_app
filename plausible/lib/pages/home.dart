@@ -78,7 +78,7 @@ class _HomeState extends State<Home> {
   }
 
   onTap(int pageIndex){
-    pageController.jumpToPage(pageIndex);
+    pageController.animateToPage(pageIndex, duration: const Duration(milliseconds: 300), curve: Curves.easeInOut);
   }
 
   Scaffold buildAuthScreen() {
@@ -98,7 +98,7 @@ class _HomeState extends State<Home> {
       bottomNavigationBar: CupertinoTabBar(
         currentIndex: pageIndex, 
         onTap: onTap,
-        activeColor: Theme.of(context).primaryColor,
+        activeColor: Colors.pink,
         items:const [
           BottomNavigationBarItem(icon: Icon(Icons.whatshot),),
           BottomNavigationBarItem(icon: Icon(Icons.notifications_active),),
