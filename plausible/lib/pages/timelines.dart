@@ -22,7 +22,7 @@ class _TimelineState extends State<Timeline> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: header(context, isAppTitle: true, titleText: ''),
-      body: linearProgress(),
+      body: circularProgress(),
     );
   }
 }
