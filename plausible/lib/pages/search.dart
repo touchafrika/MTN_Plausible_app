@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:plausible/models/story_list.dart';
 
 class Search extends StatefulWidget {
   @override
@@ -7,7 +8,8 @@ class Search extends StatefulWidget {
 
 class _SearchState extends State<Search> {
   final TextEditingController _searchController = TextEditingController();
-  
+
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -57,6 +59,10 @@ class _SearchState extends State<Search> {
                     border: InputBorder.none),
               ),
             ),
+            const SizedBox(
+              height: 20.0,
+            ),
+            
           ],
         ),
       )

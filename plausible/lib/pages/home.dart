@@ -121,20 +121,16 @@ class _HomeState extends State<Home> {
   Scaffold buildAuthScreen() {
     return Scaffold(
       body: PageView(
+        controller: pageController,
+        onPageChanged: onPageChanged,
+        physics: const NeverScrollableScrollPhysics(),
         children: <Widget>[
-          // Timeline(),
-          ElevatedButton(
-            onPressed: logout,
-            child: const Text('Logout'),
-          ),
+          Timeline(),
           ActivityFeed(),
           Upload(),
           Search(),
           Profile(),
         ],
-        controller: pageController,
-        onPageChanged: onPageChanged,
-        physics: const NeverScrollableScrollPhysics(),
       ),
       bottomNavigationBar: CupertinoTabBar(
           currentIndex: pageIndex,
