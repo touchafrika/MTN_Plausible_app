@@ -22,11 +22,10 @@ class _SearchState extends State<Search> {
                 Container(
                   width: 40,
                   height: 40,
-                  decoration:const BoxDecoration(
+                  decoration: const BoxDecoration(
                       shape: BoxShape.circle,
                       image: DecorationImage(
-                          image: NetworkImage(
-                              "https://unsplash.com/photos/TczNEXVmQs8"),
+                          image: AssetImage("assets/images/user.jpg"),
                           fit: BoxFit.cover)
                           ),
                 ),
