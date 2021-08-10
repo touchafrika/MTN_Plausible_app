@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:plausible/pages/home.dart';
+import 'package:plausible/widgets/palette.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,8 +14,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Plausible',
       theme: ThemeData(
-        primaryColor: Colors.purpleAccent,
+        primarySwatch: Colors.purple,
         accentColor: Colors.redAccent,
+        scaffoldBackgroundColor: Palette.scaffold,
       ),
       home: Home(),
     );

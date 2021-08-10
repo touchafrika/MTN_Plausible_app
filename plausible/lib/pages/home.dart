@@ -80,7 +80,7 @@ class _HomeState extends State<Home> {
       usersRef.doc().set({
         "id": user!.id,
         "username": username,
-        "photoUrl": user.photoUrl,
+        "imageUrl": user.photoUrl,
         "email": user.email,
         "displayName": user.displayName,
         "bio": "",
